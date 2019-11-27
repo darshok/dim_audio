@@ -1,0 +1,19 @@
+C:\Users\dima1516\source\repos\REcoSample\bin\Debug\REcoSample.exe.config
+C:\Users\dima1516\source\repos\REcoSample\bin\Debug\REcoSample.exe
+C:\Users\dima1516\source\repos\REcoSample\bin\Debug\REcoSample.pdb
+C:\Users\dima1516\source\repos\REcoSample\obj\Debug\REcoSample.csprojResolveAssemblyReference.cache
+C:\Users\dima1516\source\repos\REcoSample\obj\Debug\REcoSample.Form1.resources
+C:\Users\dima1516\source\repos\REcoSample\obj\Debug\REcoSample.Properties.Resources.resources
+C:\Users\dima1516\source\repos\REcoSample\obj\Debug\REcoSample.csproj.GenerateResource.Cache
+C:\Users\dima1516\source\repos\REcoSample\obj\Debug\REcoSample.csproj.CoreCompileInputs.cache
+C:\Users\dima1516\source\repos\REcoSample\obj\Debug\REcoSample.exe
+C:\Users\dima1516\source\repos\REcoSample\obj\Debug\REcoSample.pdb
+C:\Users\dfo96\Google Drive\UPV\DIM\REcoSample\bin\Debug\REcoSample.exe.config
+C:\Users\dfo96\Google Drive\UPV\DIM\REcoSample\bin\Debug\REcoSample.exe
+C:\Users\dfo96\Google Drive\UPV\DIM\REcoSample\bin\Debug\REcoSample.pdb
+C:\Users\dfo96\Google Drive\UPV\DIM\REcoSample\obj\Debug\REcoSample.csprojAssemblyReference.cache
+C:\Users\dfo96\Google Drive\UPV\DIM\REcoSample\obj\Debug\REcoSample.Form1.resources
+C:\Users\dfo96\Google Drive\UPV\DIM\REcoSample\obj\Debug\REcoSample.Properties.Resources.resources
+C:\Users\dfo96\Google Drive\UPV\DIM\REcoSample\obj\Debug\REcoSample.csproj.GenerateResource.cache
+C:\Users\dfo96\Google Drive\UPV\DIM\REcoSample\obj\Debug\REcoSample.exe
+C:\Users\dfo96\Google Drive\UPV\DIM\REcoSample\obj\Debug\REcoSample.pdb
