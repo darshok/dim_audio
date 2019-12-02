@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace REcoSample.Properties {
+namespace SpeechDIM.Properties {
     using System;
     
     

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace REcoSample
+namespace SpeechDIM
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace REcoSample
             Application.SetCompatibleTextRenderingDefault(false);
             try
             {
-                Application.Run(new Form1());
+                Application.Run(new AudioController());
             }
             catch(Exception ex)
             {

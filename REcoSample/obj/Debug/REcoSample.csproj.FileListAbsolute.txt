@@ -17,3 +17,12 @@ C:\Users\dfo96\Google Drive\UPV\DIM\REcoSample\obj\Debug\REcoSample.Properties.R
 C:\Users\dfo96\Google Drive\UPV\DIM\REcoSample\obj\Debug\REcoSample.csproj.GenerateResource.cache
 C:\Users\dfo96\Google Drive\UPV\DIM\REcoSample\obj\Debug\REcoSample.exe
 C:\Users\dfo96\Google Drive\UPV\DIM\REcoSample\obj\Debug\REcoSample.pdb
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\bin\Debug\REcoSample.exe.config
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\bin\Debug\REcoSample.exe
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\bin\Debug\REcoSample.pdb
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\obj\Debug\REcoSample.csprojAssemblyReference.cache
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\obj\Debug\REcoSample.Properties.Resources.resources
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\obj\Debug\REcoSample.csproj.GenerateResource.cache
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\obj\Debug\REcoSample.exe
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\obj\Debug\REcoSample.pdb
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\obj\Debug\SpeechDIM.Form1.resources

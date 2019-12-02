@@ -1,0 +1,9 @@
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\bin\Debug\REcoSample.exe.config
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\bin\Debug\REcoSample.exe
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\bin\Debug\REcoSample.pdb
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\obj\Debug\SpeechDIM.csprojAssemblyReference.cache
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\obj\Debug\REcoSample.Properties.Resources.resources
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\obj\Debug\SpeechDIM.csproj.GenerateResource.cache
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\obj\Debug\REcoSample.exe
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\obj\Debug\REcoSample.pdb
+C:\Users\dfo96\Source\Repos\darshok\dim_audio\REcoSample\obj\Debug\SpeechDIM.AudioController.resources
