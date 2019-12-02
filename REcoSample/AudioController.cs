@@ -110,10 +110,10 @@ namespace SpeechDIM
              * https://docs.microsoft.com/en-us/dotnet/api/system.speech.recognition.grammarbuilder?view=netframework-4.8
              */
 
-            GrammarBuilder la = "La";
-            GrammarBuilder el = "El";
-            GrammarBuilder a = "A";
-            GrammarBuilder cancion = "Cancion";
+            GrammarBuilder la = "la";
+            GrammarBuilder el = "el";
+            GrammarBuilder a = "a";
+            GrammarBuilder cancion = "cancion";
             GrammarBuilder pausar = "Pausar";
             GrammarBuilder parar = "Parar";
             GrammarBuilder reproducir = "Reproducir";
@@ -128,7 +128,7 @@ namespace SpeechDIM
             GrammarBuilder subir = "Subir";
             GrammarBuilder reducir = "Reducir";
             GrammarBuilder bajar = "Bajar";
-            GrammarBuilder volumen = "Volumen";
+            GrammarBuilder volumen = "volumen";
 
             Choices volumeChoices = new Choices(aumentar, subir, reducir, bajar); //habrá que hacerlo con los semanticresultvalue
             GrammarBuilder phraseVolume = new GrammarBuilder(volumeChoices);
@@ -140,8 +140,8 @@ namespace SpeechDIM
             GrammarBuilder saltar = "Saltar";
             GrammarBuilder volver = "Volver";
             GrammarBuilder retroceder = "Retroceder";
-            GrammarBuilder siguiente = "Siguiente";
-            GrammarBuilder anterior = "Anterior";
+            GrammarBuilder siguiente = "siguiente";
+            GrammarBuilder anterior = "anterior";
 
             Choices controlChoices = new Choices(avanzar, saltar, volver, retroceder); //habrá que hacerlo con los semanticresultvalue
             GrammarBuilder phraseControl = new GrammarBuilder(controlChoices);
