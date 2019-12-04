@@ -148,7 +148,7 @@ namespace SpeechDIM
             else if (semantics.ContainsKey("volume"))
             {
                 label1.Text = rawText;
-                if (semantics.ContainsKey("volume").Equals(semantics["up"].Value))
+                if (semantics["volume"].Value.Equals("up"))
                 {
                     VolumeUp();
                 } else
@@ -161,7 +161,7 @@ namespace SpeechDIM
             else if (semantics.ContainsKey("control"))
             {
                 label1.Text = rawText;
-                if (semantics.ContainsKey("control").Equals(semantics["next"].Value))
+                if (semantics["control"].Value.Equals("next"))
                 {
                     NextSong();
                 }
@@ -194,7 +194,7 @@ namespace SpeechDIM
              * Parar la cancion
              * frase()
              * 
-             * Silenciar el ordenador
+             * Silenciar/sonorizar el ordenador
              * frase()
              */
 
@@ -208,7 +208,7 @@ namespace SpeechDIM
             GrammarBuilder anterior = "anterior";
 
 
-            //play pause
+            //Reproducir o pausar la cancion
             Choices playPauseChoice = new Choices();
             SemanticResultValue playPauseResultValue =
                     new SemanticResultValue("Reproducir", "play");
@@ -232,7 +232,7 @@ namespace SpeechDIM
             phrasePlayPause.Append(la);
             phrasePlayPause.Append(cancion);
 
-            //Volumen
+            //Subir o bajar el volumen
             Choices volumeChoice = new Choices();
             SemanticResultValue volumeResultValue =
                     new SemanticResultValue("Subir", "up");
@@ -261,7 +261,7 @@ namespace SpeechDIM
             phraseVolume.Append(el);
             phraseVolume.Append(volumen);
 
-            //control
+            //Avanzar o retroceder a la siguiente o anterior cancion
             Choices controlChoice = new Choices();
             SemanticResultValue controlResultValue =
                     new SemanticResultValue("Avanzar", "next");
@@ -289,15 +289,20 @@ namespace SpeechDIM
             GrammarBuilder phraseControl = control;
             phraseControl.Append(a);
             phraseControl.Append(la);
-            Choices laElChoices = new Choices(siguiente, anterior);
-            phraseControl.Append(laElChoices);
+            Choices nextPrevChoice = new Choices(siguiente, anterior);
+            phraseControl.Append(nextPrevChoice);
             phraseControl.Append(cancion);
 
-            //mute
+            //Silenciar/sonorizar el ordenador
             Choices muteChoice = new Choices();
             SemanticResultValue muteResultValue =
                     new SemanticResultValue("Silenciar", "mute");
             GrammarBuilder muteValueBuilder = new GrammarBuilder(muteResultValue);
+            muteChoice.Add(muteValueBuilder);
+
+            muteResultValue =
+                    new SemanticResultValue("Sonorizar", "mute");
+            muteValueBuilder = new GrammarBuilder(muteResultValue);
             muteChoice.Add(muteValueBuilder);
 
             SemanticResultKey muteResultKey = new SemanticResultKey("mute", muteChoice);
@@ -307,7 +312,7 @@ namespace SpeechDIM
             phraseMute.Append(el);
             phraseMute.Append(ordenador);
 
-            //stop
+            //Parar la cancion
             Choices stopChoice = new Choices();
             SemanticResultValue stopResultValue =
                     new SemanticResultValue("Parar", "stop");
